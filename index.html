@@ -13,7 +13,7 @@
         background-repeat: no-repeat;
         background-position: 100% 0;
     }
-
+    
     #about-me {
         background-image: url(./images/abt-bg.png);
         background-repeat: no-repeat;
@@ -24,14 +24,20 @@
         height: 27rem;
     }
 </style>
-<body class="m-0 p-0">
-    <nav class="container-fluid bg-secondary px-5">
-        <div class="row">
-            <ul class="nav nav-pills text-light px-5">
-               <li class="col-9 p-3">Aquinas Moriasi</li>
-               <li class="col-1 p-3 nav-item">Portfolio</li>
-               <li class="col-1 p-3 nav-item">About</li>
-               <li class="col-1 p-3 nav-item">Contact</li>
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" class="m-0 p-0">
+    <nav class="container-fluid navbar bg-secondary fixed-top px-5">
+        <div class="row container-fluid d-flex justify-content-between">
+            <a href="#" class="col-7 p-3 list-unstyled text-light text-decoration-none">Aquinas Moriasi</a>
+            <ul class="nav col-4 text-light ps-5">
+               <li class="p-3 nav-item">
+                    <a href="#projects" class="text-decoration-none text-light">Portfolio</a>
+               </li>
+               <li class="p-3 nav-item">
+                <a href="#about-me" class="text-decoration-none text-light">About</a>
+                 </li>
+                <li class="p-3 nav-item">
+                 <a href="#contact-me" class="text-decoration-none text-light">Contact</a>
+                </li>
             </ul>
         </div>
     </nav>
@@ -238,7 +244,7 @@
            </div>
         </div>
     </section>
-    <footer class="container d-flex pt-5 mt-5">
+    <footer id="contact-me" class="container d-flex pt-5 mt-5">
         <p class="text-dark h3 fw-bold col-3 pt-5 mt-5">
             I'm always interested in hearing about new projects, so if you'd like to chat please get in touch.
         </p>
