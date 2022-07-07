@@ -6,25 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <title>Moriasi's porfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-<style>
-    #homepage{
-        background-image: url("./images/home-bg.png");
-        background-repeat: no-repeat;
-        background-position: 100% 0;
-    }
-    
-    #about-me {
-        background-image: url(./images/abt-bg.png);
-        background-repeat: no-repeat;
-        background-position: 100% 25%;
-    }
-
-    .card {
-        height: 27rem;
-    }
-</style>
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" class="m-0 p-0">
+   <header>
     <nav class="container-fluid navbar bg-secondary fixed-top px-5">
         <div class="row container-fluid d-flex justify-content-between">
             <a href="#" class="col-7 p-3 list-unstyled text-light text-decoration-none">Aquinas Moriasi</a>
@@ -41,16 +26,17 @@
             </ul>
         </div>
     </nav>
+   </header>
     <section id="homepage" class="container-fluid d-flex align-items-end min-vh-100 bg-dark m-0 pb-5" >
         <div class="col-1 align-self-center ps-3 pt-5">
             <ul class="list-unstyled">
                 <li id="github" class="pt-5">
-                    <a href="https://github.com/Aquinasmoriasi" target="_blank">
+                    <a href="https://github.com/Aquinasmoriasi">
                     <img src="./images/github.png" alt="github profile">
                     </a>
                 </li> 
                 <li>
-                    <a href="https://www.linkedin.com/in/aquinas-moriasi/" target="_blank">
+                    <a href="https://www.linkedin.com/in/aquinas-moriasi/">
                     <img src="./images/linkedin.png" alt="linkedin profile">
                     </a>
                </li>
@@ -60,7 +46,7 @@
                 </a>
             </li>  
                 <li>
-                    <a href="https://twitter.com/aquinas747" target="_blank">
+                    <a href="#">
                     <img src="./images/twitter.png" alt="twitter handle">
                     </a>
                 </li>
@@ -72,7 +58,7 @@
             </ul>
         </div>
         <div class="col-6">
-            <h1 class="display-2" style="color: #F55800;">
+            <h1 class="display-2 main-header">
                 Hey There <br> I’m Moriasi
             </h1>
             <p class="h3 text-light">
@@ -85,9 +71,9 @@
         </div>    
     </section>
     <section id="projects" class="container-fluid pt-5 ps-5 pe-5 mb-5">
-        <h1 class="h1 pt-5 ps-4 pb-5">
+        <h2 class="h1 pt-5 ps-4 pb-5">
             My recent works
-        </h1>
+        </h2>
         <div class="highlight container-fluid d-flex">
             <img src="./images/img1.jpg" alt="highlight-project">
             <div class="container">
@@ -201,14 +187,14 @@
         </div>
     </section>
     <section id="about-me" class="container-fluid bg-dark d-flex flex-column pt-0 ps-5 pe-5 pt-5 mb-5 pb-5  min-vh-100">
-        <h1 class="display-1 pt-5 ps-5" style="color: #F55800;">
+        <h2 class="display-1 pt-5 ps-5 about-header">
             About Me
-        </h1>
+        </h2>
         <p class="text-light col-5 pe-0 me-0 ps-5 pb-3">
             Hello I’m a software developer! I can help you build a product, feature or website Look through some of my work and experience!
              If you like what you see and have a project you need coded, don’t hestiate to contact me.
         </p>
-        <button class="text-light border-0 rounded-0 col-2 ms-5 p-2 mb-5" style="background-color: #F55800;">
+        <button type="button" class="text-light border-0 rounded-0 col-2 ms-5 p-2 mb-5 resume-btn">
             Get My Resume
         </button>
         <div class="border-bottom pt-5 mt-5"></div>
@@ -252,19 +238,19 @@
             <input type="text" class="mb-3 p-2 border-0 border-bottom valid" name="Name" placeholder="Full name" aria-label="Name" maxlength="30" required>
             <input type="email" class="mb-5 p-2 border-0 border-bottom" name="Email" placeholder="Email address" aria-label="email" required>
             <textarea name="message" class="mb-3 p-3 " rows="5" placeholder="write your message here" maxlength="500" required></textarea>
-            <button type="submit" class="col-3 text-light border-0 p-2 mb-5" id="submit" style="background-color: #F55800;">Get in Touch</button>
+            <button type="submit" class="col-3 text-light border-0 p-2 mb-5 git-btn" id="submit">Get in Touch</button>
         </form>
     </footer>
     <div class="border-bottom pt-5 mt-5"></div>
     <div class="container-fluid d-flex justify-content-center pt-2">
         <ul class="list-unstyled d-flex">
             <li class="m-1">
-                <a href="https://github.com/Aquinasmoriasi" target="_blank">
+                <a href="https://github.com/Aquinasmoriasi">
                 <img src="./images/github1.png" alt="github profile">
                 </a>
             </li> 
             <li class="m-1">
-                <a href="https://www.linkedin.com/in/aquinas-moriasi/" target="_blank">
+                <a href="https://www.linkedin.com/in/aquinas-moriasi/">
                 <img src="./images/linkedin1.png" alt="linkedin profile">
                 </a>
            </li>
@@ -274,7 +260,7 @@
             </a>
         </li>  
             <li class="m-1">
-                <a href="https://twitter.com/aquinas747" target="_blank">
+                <a href="#">
                 <img src="./images/twitter1.png" alt="twitter handle">
                 </a>
             </li>
