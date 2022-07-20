@@ -70,7 +70,7 @@ Feel free to check the [issues page](https://github.com/Aquinasmoriasi/Portfolio
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
-- I would like ot acknowledge everyone who contributed to this project.
+- I would like to acknowledge everyone who contributed to this project.
 
 ## 📝 License
 
