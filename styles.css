@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+#homepage {
+  background-image: url("./images/home-bg.png");
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+
+#about-me {
+  background-image: url(./images/abt-bg.png);
+  background-repeat: no-repeat;
+  background-position: 100% 25%;
+}
+
+.card {
+  height: 27rem;
+}
+
+.main-header,
+.about-header {
+  color: #f55800;
+}
+
+.resume-btn,
+.git-btn {
+  background-color: #f55800;
+}
