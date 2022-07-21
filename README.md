@@ -61,6 +61,7 @@ To get a local copy up and running follow these simple steps.
 ## 🤝 Contributing
 
 - [Mark otuya](https://github.com/markotuya0)
+
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](https://github.com/Aquinasmoriasi/Portfolio-bootstrap-version/issues).
